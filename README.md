@@ -2,6 +2,8 @@
 
 This is a basic website about recipes for the first project of The Odin Project.
 
+**Quick reminder** that this repo can change from time to time but you can see what changes are made and previous state of the files in commits.
+
 ## Credits!
 
 Credit for the [Iskender Photo](https://www.pexels.com/photo/traditional-turkish-doner-kebab-in-bursa-37329604/)
