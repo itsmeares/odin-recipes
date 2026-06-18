@@ -19,21 +19,19 @@ body {
 .title {
     text-align: center;
     font-family: Garamond, serif;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 .description {
-    text-align: center;
     margin: 8px;
+    padding: 8px;
 }
 
 .banner {
     width: 600px;
     height: 250px;
     object-fit: cover;
-    margin-top: 16px;
-    border: 0;
-    border-radius: 16px;
+    margin: 12px 0 0;
 }
 
 .homepage__links {
@@ -61,4 +59,58 @@ body {
 
 img {
     width: 600px;
+    margin: 16px 0;
+}
+
+.rounded__img {
+    border: 0;
+    border-radius: 16px;
+}
+
+.secondary__title {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.return {
+    display: block;
+    text-align: center;
+    margin: 24px 0 12px;
+    font-size: 20px;
+}
+
+.ingredients__title {
+    margin: 16px 0 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.ingredients__servings {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.ingredients__list {
+    margin: 12px 0;
+    list-style-position: inside;
+}
+
+.ingredients__list li {
+    padding: 4px 0;
+}
+
+.directions__title {
+    margin: 16px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.directions__list {
+    margin: 12px 0;
+    padding-left: 1rem; /* the reason im doing is that when it's list-style-position: inside the numbers act like they are a part of the text and the text will go under the numbers. I didn't want that to happen so I found this as a solution. */
+}
+
+.directions__list li {
+    padding: 4px 0;
 }
